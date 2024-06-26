@@ -1,14 +1,13 @@
 import React from 'react';
-import './App.css'; // Importe seu arquivo CSS principal
-import './style.css'; // Importe seu arquivo CSS de estilo
-import imagem5 from './assets/imagem5.jpg'; // Ajuste o caminho da imagem conforme necessário
-import imagem1 from './assets/imagem1.jpg'; // Ajuste o caminho da imagem conforme necessário
-import imagem3 from './assets/imagem3.jpg'; // Ajuste o caminho da imagem conforme necessário
-import imagem4 from './assets/imagem4.jpg'; // Ajuste o caminho da imagem conforme necessário
+import './App.css'; 
+import './style.css'; 
+import imagem5 from './assets/imagem5.jpg'; 
+import imagem1 from './assets/imagem1.jpg'; 
+import imagem3 from './assets/imagem3.jpg'; 
+import imagem4 from './assets/imagem4.jpg'; 
 import praiaVideo from './assets/praia.mp4';
 
 function App() {
-  // Função para alternar a visibilidade do menu
   const toggleMenu = () => {
     const menuItems = document.getElementById('menuItems');
     menuItems.classList.toggle('active');
@@ -106,12 +105,6 @@ function App() {
           <br />
 
           <div className="offer-item">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <br />
-
-          <div className="offer-item">
             <p>Happy Hour: Buy One, Get Two</p>
             <p>Join happy hour every weekday from 5pm to 7pm and take advantage of the buy one, tier two offer on select items.</p>
           </div>
@@ -157,27 +150,27 @@ function App() {
           <p>Testimonials</p>
 
           <div className="testimonial">
-            <p><em>— Ana C., Sandwich Aficionado</em></p>
+            <p><em>— Ana C.</em></p>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
           </div>
 
           <div className="testimonial">
-            <p><em>— Lucas M., Skewer Connoisseur</em></p>
+            <p><em>— Lucas M.</em></p>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
           </div>
 
           <div className="testimonial">
-            <p><em>— Ana R., Sweets Lover</em></p>
+            <p><em>— Ana R.</em></p>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
           </div>
 
           <div className="testimonial">
-            <p><em>— Carlos M., Satisfied Customer</em></p>
+            <p><em>— Carlos M.</em></p>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
           </div>
 
           <div className="testimonial">
-            <p><em>— Laura T., Pie Admirer</em></p>
+            <p><em>— Laura T.</em></p>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
           </div>
         </section>
