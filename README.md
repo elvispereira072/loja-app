@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project Overview
 
-This is a basic React project that showcases various elements on the screen, primarily using four free stock images. The design includes sections for testimonials, contact information, and special offers, although the latter two sections are not centered due to time constraints.
+This is a basic React project that showcases various elements on the screen, primarily using four free stock images. The design includes sections for testimonials, contact information, and special offers. However, the testimonials, contact, and special offers sections are not centered due to time constraints, while the contact form and Google Maps are centered along with the footer.
 
 ## Technologies Used
 - **React**
@@ -14,9 +14,12 @@ This is a basic React project that showcases various elements on the screen, pri
 
 ## Features
 - **Four Free Stock Images:** Displayed prominently on the screen to enhance visual appeal.
-- **Testimonials Section:** Highlights customer feedback and experiences.
-- **Contact Section:** Provides essential contact information for users.
-- **Special Offers Section:** Lists any special promotions or offers available.
+- **Testimonials Section:** Highlights customer feedback and experiences, though not centered.
+- **Contact Section:** Provides essential contact information for users, also not centered.
+- **Special Offers Section:** Lists any special promotions or offers available, not centered.
+- **Contact Form:** Centered for easy user access.
+- **Google Maps:** Integrated and centered to help users find the location.
+- **Footer:** Centered for consistent layout.
 
 ## Available Scripts
 
@@ -84,4 +87,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
