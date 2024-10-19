@@ -9,7 +9,7 @@ This is a basic React project that showcases various elements on the screen, pri
 ## Technologies Used
 - **React**
 - **JavaScript**
-- **HTML**
+- **JSX**
 - **CSS**
 
 ## Features
